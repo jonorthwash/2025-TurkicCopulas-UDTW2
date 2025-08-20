@@ -1,1 +1,268 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1538" height="446" id="graph-svg" style="background: white; font-family: Arial; font-size: 20px;"><g id="graph-g" transform="translate(148.21921618931503,152.19330648887194) scale(1.1911667423856092)"><svg id="token-0" width="67.44647693634033" height="70" y="100" style="overflow: visible; cursor: pointer;" x="165.04228744506827"><line x1="33.723238468170166" y1="30" x2="33.723238468170166" y2="40" class="pos-edge" style="stroke: rgb(72, 72, 72); stroke-width: 3px;"/><svg x="46.32292938232422" width="21.123547554016113" height="30" style="overflow: visible;"><path d="M0,0h16.123547554016113a5,5 0 0 1 5,5v20a5,5 0 0 1 -5,5h-16.123547554016113z" class="tokenNum" style="fill: rgb(175, 162, 255); stroke: rgb(0, 0, 0); stroke-width: 2px;"/><text class="tokenNum-label" x="50%" y="50%" text-anchor="middle" dominant-baseline="central">1</text></svg><svg width="46.32292938232422" height="30" id="group-0" class="token" subId="0" style="overflow: visible;"><path d="M46.32292938232422,0h-41.32292938232422a5,5 1 0 0 -5,5v20a5,5 1 0 0 5,5h41.32292938232422z" id="form-0" attr="form" subId="0" class="form" num="1" style="fill: rgb(127, 161, 255); stroke: rgb(0, 0, 0); stroke-width: 2px;"/><text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" id="text-form-0" class="form-label">Эпӗ</text></svg><svg x="-0.15600919723510742" y="40" width="67.75849533081055" height="30" style="overflow: visible;"><rect width="67.75849533081055" height="30" id="pos-0" class="pos" attr="upostag" subId="0" rx="5" ry="5" style="fill: rgb(175, 162, 255); stroke: rgb(0, 0, 0); stroke-width: 2px;"/><text x="50%" y="50%" class="pos-label" id="text-pos-0" text-anchor="middle" dominant-baseline="central">PRON</text></svg></svg><svg id="token-1" width="99.40394306182861" height="70" y="100" style="overflow: visible; cursor: pointer;" x="297.75849533081055"><line x1="49.70197153091431" y1="30" x2="49.70197153091431" y2="40" class="pos-edge" style="stroke: rgb(72, 72, 72); stroke-width: 3px;"/><svg x="78.2803955078125" width="21.123547554016113" height="30" style="overflow: visible;"><path d="M0,0h16.123547554016113a5,5 0 0 1 5,5v20a5,5 0 0 1 -5,5h-16.123547554016113z" class="tokenNum root" style="fill: rgb(175, 162, 255); stroke: rgb(0, 0, 0); stroke-width: 4px;"/><text class="tokenNum-label root" x="50%" y="50%" text-anchor="middle" dominant-baseline="central" style="font-weight: 700;">2</text></svg><svg width="78.2803955078125" height="30" id="group-1" class="token" subId="1" style="overflow: visible;"><path d="M78.2803955078125,0h-73.2803955078125a5,5 1 0 0 -5,5v20a5,5 1 0 0 5,5h73.2803955078125z" id="form-1" attr="form" subId="1" class="form root" num="2" style="fill: rgb(127, 161, 255); stroke: rgb(0, 0, 0); stroke-width: 4px;"/><text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" id="text-form-1" class="form-label root" style="font-weight: 700;">пӳртре</text></svg><svg x="15.270044803619385" y="40" width="68.86385345458984" height="30" style="overflow: visible;"><rect width="68.86385345458984" height="30" id="pos-1" class="pos" attr="upostag" subId="1" rx="5" ry="5" style="fill: rgb(175, 162, 255); stroke: rgb(0, 0, 0); stroke-width: 2px;"/><text x="50%" y="50%" class="pos-label" id="text-pos-1" text-anchor="middle" dominant-baseline="central">NOUN</text></svg></svg><defs><marker id="end" viewBox="0 -5 10 10" refX="2" refY="2" markerWidth="15" markerHeight="15" orient="auto" style="fill: rgb(17, 17, 17);"><path d="M 1 1 L 3 2 L 1 3 Z"/></marker></defs><path class="dependency" attr="deprel" style="stroke-width: 4px; fill: none; stroke: rgb(17, 17, 17); opacity: 0.766;" marker-end="url(#end)" d="M 331.5,100 L 326.25,67.5 C 321,35 313.65,35 306.29999999999995,35 L 306.29999999999995,35 301.2788562774658,35M 228.72114372253418,35 L 223.7,35 C216.35,35 209,35 203.75,67.5 L198.5,94" id="dep_0_1" num="3"/><line x1="346.5" y1="2.5" x2="346.5" y2="93" class="root-deprel" marker-end="url(#end)" style="stroke: rgb(17, 17, 17); opacity: 0.766; stroke-width: 4px;"/><text id="text-dep_0_1" class="deprel-label" style="cursor: pointer; text-shadow: rgb(255, 255, 255) 1px 1px 5px;" transform="translate(265,35)" y="-1" text-anchor="middle" dominant-baseline="central">⊲nsubj</text><text x="346.5" y="-8.5" class="root-deprel-label" text-anchor="middle" dominant-baseline="central" style="text-shadow: rgb(255, 255, 255) 1px 1px 5px;">ROOT</text></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="240"
+   id="graph-svg"
+   style="font-size:20px;font-family:Arial"
+   version="1.1"
+   sodipodi:docname="graph - Эпӗ пӳртре.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs49" />
+  <sodipodi:namedview
+     id="namedview47"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.84590377"
+     inkscape:cx="304.40815"
+     inkscape:cy="223.42967"
+     inkscape:window-width="1600"
+     inkscape:window-height="841"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="graph-svg" />
+  <g
+     id="graph-g"
+     transform="matrix(1.1911667,0,0,1.1911667,-184.48379,26.805225)">
+    <svg
+       id="token-0"
+       width="67.44648"
+       height="70"
+       y="100"
+       style="overflow:visible"
+       x="165.04228"
+       version="1.1">
+      <line
+         x1="33.72324"
+         y1="30"
+         x2="33.72324"
+         y2="40"
+         class="pos-edge"
+         style="stroke:#484848;stroke-width:3px"
+         id="line2" />
+      <svg
+         x="46.322929"
+         width="21.123547"
+         height="30"
+         style="overflow:visible"
+         version="1.1"
+         id="svg8">
+        <path
+           d="m 0,0 h 16.123548 a 5,5 0 0 1 5,5 v 20 a 5,5 0 0 1 -5,5 H 0 Z"
+           class="tokenNum"
+           style="fill:#afa2ff;stroke:#000000;stroke-width:2px"
+           id="path4" />
+        <text
+           class="tokenNum-label"
+           x="50%"
+           y="50%"
+           text-anchor="middle"
+           dominant-baseline="central"
+           id="text6">1</text>
+      </svg>
+      <svg
+         width="46.322929"
+         height="30"
+         id="group-0"
+         class="token"
+         subId="0"
+         style="overflow:visible"
+         version="1.1">
+        <path
+           d="M 46.322929,0 H 5 A 5,5 1 0 0 0,5 v 20 a 5,5 1 0 0 5,5 h 41.322929 z"
+           id="form-0"
+           attr="form"
+           subId="0"
+           class="form"
+           num="1"
+           style="fill:#7fa1ff;stroke:#000000;stroke-width:2px" />
+        <text
+           x="50%"
+           y="50%"
+           text-anchor="middle"
+           dominant-baseline="central"
+           id="text-form-0"
+           class="form-label">Эпӗ</text>
+      </svg>
+      <svg
+         x="-0.1560092"
+         y="40"
+         width="67.758499"
+         height="30"
+         style="overflow:visible"
+         version="1.1"
+         id="svg15">
+        <rect
+           width="67.758499"
+           height="30"
+           id="pos-0"
+           class="pos"
+           attr="upostag"
+           subId="0"
+           rx="5"
+           ry="5"
+           style="fill:#afa2ff;stroke:#000000;stroke-width:2px"
+           x="0"
+           y="0" />
+        <text
+           x="50%"
+           y="50%"
+           class="pos-label"
+           id="text-pos-0"
+           text-anchor="middle"
+           dominant-baseline="central">PRON</text>
+      </svg>
+    </svg>
+    <svg
+       id="token-1"
+       width="99.403946"
+       height="70"
+       y="100"
+       style="overflow:visible"
+       x="297.75848"
+       version="1.1">
+      <line
+         x1="49.701973"
+         y1="30"
+         x2="49.701973"
+         y2="40"
+         class="pos-edge"
+         style="stroke:#484848;stroke-width:3px"
+         id="line18" />
+      <svg
+         x="78.280396"
+         width="21.123547"
+         height="30"
+         style="overflow:visible"
+         version="1.1"
+         id="svg24">
+        <path
+           d="m 0,0 h 16.123548 a 5,5 0 0 1 5,5 v 20 a 5,5 0 0 1 -5,5 H 0 Z"
+           class="tokenNum root"
+           style="fill:#afa2ff;stroke:#000000;stroke-width:4px"
+           id="path20" />
+        <text
+           class="tokenNum-label root"
+           x="50%"
+           y="50%"
+           text-anchor="middle"
+           dominant-baseline="central"
+           style="font-weight:700"
+           id="text22">2</text>
+      </svg>
+      <svg
+         width="78.280396"
+         height="30"
+         id="group-1"
+         class="token"
+         subId="1"
+         style="overflow:visible"
+         version="1.1">
+        <path
+           d="M 78.280396,0 H 5 A 5,5 1 0 0 0,5 v 20 a 5,5 1 0 0 5,5 h 73.280396 z"
+           id="form-1"
+           attr="form"
+           subId="1"
+           class="form root"
+           num="2"
+           style="fill:#7fa1ff;stroke:#000000;stroke-width:4px" />
+        <text
+           x="50%"
+           y="50%"
+           text-anchor="middle"
+           dominant-baseline="central"
+           id="text-form-1"
+           class="form-label root"
+           style="font-weight:700">пӳртре</text>
+      </svg>
+      <svg
+         x="15.270044"
+         y="40"
+         width="68.863853"
+         height="30"
+         style="overflow:visible"
+         version="1.1"
+         id="svg31">
+        <rect
+           width="68.863853"
+           height="30"
+           id="pos-1"
+           class="pos"
+           attr="upostag"
+           subId="1"
+           rx="5"
+           ry="5"
+           style="fill:#afa2ff;stroke:#000000;stroke-width:2px"
+           x="0"
+           y="0" />
+        <text
+           x="50%"
+           y="50%"
+           class="pos-label"
+           id="text-pos-1"
+           text-anchor="middle"
+           dominant-baseline="central">NOUN</text>
+      </svg>
+    </svg>
+    <defs
+       id="defs37">
+      <marker
+         id="end"
+         viewBox="0 -5 10 10"
+         refX="2"
+         refY="2"
+         markerWidth="15"
+         markerHeight="15"
+         orient="auto"
+         style="fill:#ffffff">
+        <path
+           d="M 1,1 3,2 1,3 Z"
+           id="path34" />
+      </marker>
+    </defs>
+    <path
+       class="dependency"
+       attr="deprel"
+       style="opacity:0.766;fill:none;stroke:#ffffff;stroke-width:4px"
+       marker-end="url(#end)"
+       d="M 331.5,100 326.25,67.5 C 321,35 313.65,35 306.3,35 v 0 h -5.02114 m -72.55772,0 H 223.7 c -7.35,0 -14.7,0 -19.95,32.5 L 198.5,94"
+       id="dep_0_1"
+       num="3" />
+    <line
+       x1="346.5"
+       y1="2.5"
+       x2="346.5"
+       y2="93"
+       class="root-deprel"
+       marker-end="url(#end)"
+       style="opacity:0.766;stroke:#ffffff;stroke-width:4px"
+       id="line40" />
+    <text
+       id="text-dep_0_1"
+       class="deprel-label"
+       transform="translate(265,35)"
+		 style="fill:#ffffff"
+       y="-1"
+       text-anchor="middle"
+       dominant-baseline="central">⊲nsubj</text>
+    <text
+       x="346.5"
+       y="-8.5"
+       class="root-deprel-label"
+       text-anchor="middle"
+		 style="fill:#ffffff"
+       dominant-baseline="central"
+       id="text43">ROOT</text>
+  </g>
+</svg>

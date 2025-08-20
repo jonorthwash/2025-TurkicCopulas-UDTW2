@@ -967,3 +967,13 @@ ref {
 	flex-wrap: wrap;
 	width: 100%;
 }
+
+.ud-feat {
+	font-size: 50% !important ;
+	line-height: 0.95 !important;
+	display: inline-block !important ;
+}
+
+.norm {
+	text-transform: none !important;
+}
