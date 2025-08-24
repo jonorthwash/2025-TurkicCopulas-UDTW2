@@ -496,6 +496,7 @@ lg {
 	color: white !important ;
 	font-style: normal !important ;
 	font-family: sans ;
+	text-transform: none !important;
 }
 
 table.nolines tr td {
