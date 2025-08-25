@@ -404,7 +404,7 @@
 									<div style="display: inline-block; padding-left: 0.75em;">
 										<img src="img/graph - Мен бажыңда мен.svg" style="margin-bottom: 0;"/><br/>
 										<tt class="ud-feat" style="float: left; margin-left: -1em">Case=Nom<br/>Person=1<br/>Number=Sing</tt>
-										<tt class="ud-feat" style="float: right; margin-right: -0.2em">Tense=Pres<br/>Person=1<br/>Number=Sing</tt>
+										<tt class="ud-feat" style="float: right; margin-right: -0.2em">Lemma=??<br/>Tense=Pres<br/>Person=1<br/>Number=Sing</tt>
 									</div>
 									<div>‘I am in the house’</div>
 								</div>
@@ -433,19 +433,19 @@
   />
 </svg>
 							</td>
-							<td width="29%" align="center">
+							<td width="34%" align="center">
 								<div class="highlight-box">
 									<h3 class="norm" style="text-wrap: pretty;"><span class="highlight">Cliticised PRON-like <gmk>Agr</gmk>:</span> AUX/cop subtoken<lg>uzb</lg></h3>
 									<div style="display: inline-block; padding-left: 0.75em;">
 										<img src="img/graph - Men uydaman.svg" style="margin-bottom: 0;"/><br/>
 										<tt class="ud-feat" style="float: left; margin-left: -1em">Case=Nom<br/>Person=1<br/>Number=Sing</tt>
-										<tt class="ud-feat" style="float: right; margin-right: 0.6em">Tense=Pres<br/>Person=1<br/>Number=Sing</tt>
+										<tt class="ud-feat" style="float: right; margin-right: 0.6em">Lemma=??<br/>Tense=Pres<br/>Person=1<br/>Number=Sing</tt>
 									</div>
 									<div>‘I am in the house’</div>
 								</div>
 							</td>
 							<td class="arrowcell">
-								phonological changes
+								phonol. changes
 <svg width="120" height="80">
   <defs>
     <marker
@@ -468,26 +468,45 @@
   />
 </svg>
 							</td>
-							<td width="28%" align="center">
+							<td width="26%" align="center">
 								<div class="highlight-box">
 									<h3 class="norm"><span class="highlight">Cliticised <gmk>Agr</gmk>:</span> AUX/cop subtoken<lg>tur</lg></h3>
 									<div style="display: inline-block; padding-left: 0.75em;">
 										<img src="img/graph - Ben evdeyim.svg" style="margin-bottom: 0;"/><br/>
 										<tt class="ud-feat" style="float: left; margin-left: -1em">Case=Nom<br/>Person=1<br/>Number=Sing</tt>
-										<tt class="ud-feat" style="float: right; margin-right: 0.6em">Tense=Pres<br/>Person=1<br/>Number=Sing</tt>
+										<tt class="ud-feat" style="float: right; margin-right: 0.6em">Lemma=??<br/>Tense=Pres<br/>Person=1<br/>Number=Sing</tt>
 									</div>
 									<div>‘I am in the house’</div>
 								</div>
 							</td>
 						</tr>
 					</table>
-					<div class="box">
-						<ul>
-							<li>leverages UD subtokens</li>
-							<li>unifies languages regardless of level of grammaticalisation</li>
-							<li>lemma consistent with other copula strategies, despite etymology</li>
+					<div class="box float-left">
+						<h3>Lemma=ER (är<lg>otk</lg>/e<lg>uzb</lg>/i<lg>tur</lg>)</h3>
+						<ul class="nobullet">
+							<li class="minus">ER lemma despite distinct etymology</li>
+							<li class="plus">lemma consistent with other copula strategies</li>
 						</ul>
 					</div>
+					<div class="box float-right">
+						<h3>Lemma=PRON (men<lg>otk,uzb</lg>/ben<lg>tur</lg>)</h3>
+						<ul class="nobullet">
+							<li class="minus">ER lemma despite distinct etymology</li>
+							<li class="plus">lemma consistent with other copula strategies</li>
+						</ul>
+					</div>
+
+					<div style="clear: both">&nbsp;</div>
+
+
+					<div class="box">
+						<ul class="nobullet">
+							<li class="arrow">always <tt>AUX</tt>/<tt>cop</tt>, even when cliticised and not similar to pronoun</tt>
+							<li class="plus">leverages UD subtokens</li>
+							<li class="plus">unifies languages regardless of level of grammaticalisation</li>
+						</ul>
+					</div>
+
 				</section>
 
 				<section>
@@ -498,7 +517,7 @@
 				<section>
 					<!-- h2 class="extralarge cyrillic">Hvala<lg>slv</lg>, Ракмат<lg>kir</lg>, Teşekkür ederim<lg>tur</lg>, Четтирдим<lg>tyv</lg>, Баһыыба<lg>sah</lg>, Тавтапуҫ<lg>chv</lg>, Raxmet<lg>kaa</lg>, Рақмет<lg>kaz</lg>, Thank you<lg>eng</lg>!</h2 -->
 					<h2 class="extralarge cyrillic">Hvala<lg>slv</lg>,<br/><span style="color: #F77;">Təşəkkür edirəm<lg>azj</lg>,</span> <span style="color: #FB7;">Тавтапуҫ<lg>chv</lg>, Raxmet<lg>kaa</lg>,</span> <span style="color: #FF7;">Рақмет<lg>kaz</lg>, Ракмат<lg>kir</lg>,</span> <span style="color: #7F7;">Баһыыба<lg>sah</lg>, Sagoluň<lg>tkm</lg></span><br/><span style="color: #77F;">Teşekkür ederim<lg>tur</lg>,</span> <span style="color: #B7F;">Четтирдим<lg>tyv</lg>, Rahmat<lg>uzb</lg>,</span><br/>Thank you<lg>eng</lg>!</h2>
-					<p>slides available at<br/><a href="https://jonorthwash.github.io/2025-TurkicLangTech/presentation.html">https://jonorthwash.github.io/2025-TurkicCopulas-UDTW2/presentation.html</a><br/>
+					<p>slides available at<br/><a href="https://jonorthwash.github.io/2025-TurkicCopulas-UDTW2/presentation.html">https://jonorthwash.github.io/2025-TurkicCopulas-UDTW2/presentation.html</a><br/>
 					<img src="img/presentation_qrcode.png"/>
 					</p>
 				</section>
