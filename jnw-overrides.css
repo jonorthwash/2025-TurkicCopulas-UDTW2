@@ -978,3 +978,10 @@ ref {
 .norm {
 	text-transform: none !important;
 }
+
+.arrowcell {
+	text-align: center !important;
+	vertical-align: middle;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}

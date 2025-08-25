@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 	<head>
@@ -188,12 +189,12 @@
 				</section>
 
 				<section>
-					<h2 class="norm"><gmk>Subj Pred</gmk> ER</h2>
+						  <h2 class="norm"><gmk>Subj Pred</gmk> ER</h2>
 					<table width="150%" style="margin-left: -20%">
 						<tr>
-							<td width="32%">
+							<td width="33%">
 								<div class="highlight-box">
-									<h3 class="norm">Full ER verb: Root, nsubj, AUX/cop<lg>otk</lg></h3>
+									<h3 class="norm"><span class="highlight">Full ER verb:</span> AUX/cop<lg>otk</lg></h3>
 
 									<div style="display: inline-block; padding-left: 0.75em;">
 										<img src="img/graph - Bän äbdä ärür män.svg" style="margin-bottom: 0;"/><br/>
@@ -203,11 +204,33 @@
 									</div>
 								</div>
 							</td>
-							<td>
+							<td class="arrowcell">
+									  loses forms
+<svg width="120" height="80">
+  <defs>
+    <marker
+      id='head'
+      orient="auto"
+      markerWidth='3'
+      markerHeight='4'
+      refX='0.1'
+      refY='2'
+    >
+      <path d='M0,0 V4 L2,2 Z' fill="white" />
+    </marker>
+  </defs>
+  <path
+    id='arrow-line'
+    marker-end='url(#head)'
+    stroke-width='4'
+    fill='none' stroke='white'
+    d='M5,40 L110,40'
+  />
+</svg>
 							</td>
-							<td width="29%">
+							<td width="30%">
 								<div class="highlight-box">
-									<h3 class="norm" style="text-wrap: pretty;">Defective ER verb: Root, nsubj, AUX/cop<lg>kaa</lg></h3>
+									<h3 class="norm" style="text-wrap: pretty;"><span class="highlight">Defective ER verb:</span> AUX/cop<lg>kaa</lg></h3>
 									<div style="display: inline-block; padding-left: 0.75em;">
 										<img src="img/graph - Men úyde edim.svg" style="margin-bottom: 0;"/><br/>
 										<tt class="ud-feat" style="float: left; margin-left: -1em">Case=Nom<br/>Person=1<br/>Number=Sing</tt>
@@ -215,11 +238,34 @@
 									</div>
 								</div>
 							</td>
-							<td>
+							<td class="arrowcell">
+									 cliticises 
+<svg width="120" height="80">
+  <defs>
+    <marker
+      id='head'
+      orient="auto"
+      markerWidth='3'
+      markerHeight='4'
+      refX='0.1'
+      refY='2'
+    >
+      <path d='M0,0 V4 L2,2 Z' fill="white" />
+    </marker>
+  </defs>
+  <path
+    id='arrow-line'
+    marker-end='url(#head)'
+    stroke-width='4'
+    fill='none' stroke='white'
+    d='M5,40 L110,40'
+  />
+</svg>
+
 							</td>
-							<td width="28%">
+							<td width="33%">
 								<div class="highlight-box">
-									<h3 class="norm">Cliticised defective ER: split (subtoken)<lg>tur</lg></h3>
+									<h3 class="norm"><span class="highlight">Cliticised defective ER:</span> AUX/cop subtoken<lg>tur</lg></h3>
 									<div style="display: inline-block; padding-left: 0.75em;">
 										<img src="img/graph - Ben evdeydim.svg" style="margin-bottom: 0;"/><br/>
 										<tt class="ud-feat" style="float: left; margin-left: -1em">Case=Nom<br/>Person=1<br/>Number=Sing</tt>
@@ -230,10 +276,11 @@
 						</tr>
 					</table>
 					<div class="box">
-						<ul>
-							<li>leverages UD subtokens</li>
-							<li>unifies languages regardless of level of grammaticalisation</li>
-							<li>lemma consistent with other copula strategies, despite etymology</li>
+						<ul class="nobullet">
+							<li class="arrow">always <tt>AUX</tt>/<tt>cop</tt>, even when cliticised</tt>
+							<li class="minus">sometimes lemma not visible in forms (e.g., <em>çocuktum</em><lg>tur</lg>)</li>
+							<li class="plus">leverages UD subtokens</li>
+							<li class="plus">unifies languages regardless of level of grammaticalisation</li>
 						</ul>
 					</div>
 
@@ -241,6 +288,86 @@
 
 				<section>
 					<h2 class="norm"><gmk>Subj Pred</gmk> BOL</h2>
+					<table width="100%" style="margin-left: -20%">
+						<tr>
+							<td rowspan="2" width="22%" style="vertical-align: middle;">
+								<div class="highlight-box">
+									<h3 class="norm" style="text-wrap: pretty;"><span class="highlight">Full BOL verb:</span> VERB, nsubj, AUX/cop<lg>tur</lg></h3>
+									<div style="display: inline-block; padding-left: 0.75em;">
+										<img src="img/graph - Ben doktor oldum.svg" style="margin-bottom: 0;"/><br/>
+										<tt class="ud-feat" style="float: left; margin-left: -1em">Case=Nom<br/>Person=1<br/>Number=Sing</tt>
+										<tt class="ud-feat" style="float: right; margin-right: 0em">Lemma=e<br/>Tense=Past<br/>Person=1<br/>Number=Sing</tt>
+									</div>
+								</div>
+							</td>
+							<td class="arrowcell" width="10%">
+									semantically bleached
+<svg width="300" height="120">
+  <defs>
+    <marker
+      id='head'
+      orient="auto"
+      markerWidth='3'
+      markerHeight='4'
+      refX='0.1'
+      refY='2'
+    >
+      <path d='M0,0 V4 L2,2 Z' fill="white" />
+    </marker>
+  </defs>
+  <path
+    id='arrow-line'
+    marker-end='url(#head)'
+    stroke-width='4'
+    fill='none' stroke='white'
+    d='M5,110 L290,5'
+  />
+</svg>
+
+							</td>
+
+							<td width="29%">
+								<div class="highlight-box">
+									<h3 class="norm" style="text-wrap: pretty;"><span class="highlight">Defective ER verb:</span> Root, nsubj, AUX/cop<lg>kaa</lg></h3>
+									<div style="display: inline-block; padding-left: 0.75em;">
+										<img src="img/graph - Мен үйдө болчумун.svg" style="margin-bottom: 0;"/><br/>
+										<tt class="ud-feat" style="float: left; margin-left: -1em">Case=Nom<br/>Person=1<br/>Number=Sing</tt>
+										<tt class="ud-feat" style="float: right; margin-right: 0em">Lemma=e<br/>Tense=Past<br/>Person=1<br/>Number=Sing</tt>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="arrowcell" width="10%">
+<svg width="300" height="120">
+  <defs>
+    <marker
+      id='head'
+      orient="auto"
+      markerWidth='3'
+      markerHeight='4'
+      refX='0.1'
+      refY='2'
+    >
+      <path d='M0,0 V4 L2,2 Z' fill="white" />
+    </marker>
+  </defs>
+  <path
+    id='arrow-line'
+    marker-end='url(#head)'
+    stroke-width='4'
+    fill='none' stroke='white'
+    d='M5,5 L290,110'
+  />
+</svg>
+									 other meanings 
+
+							</td>
+							<td>
+								<img src="img/graph - Ne oldu.svg" style="margin-bottom: 0;"/><br/>
+							</td>
+						</tr>
+					</table>
 				</section>
 
 				<section>
@@ -249,7 +376,7 @@
 						<tr>
 							<td width="28%">
 								<div class="highlight-box">
-									<h3 class="norm">Echoed pronoun: Root, nsubj, AUX/cop<lg>tyv</lg></h3>
+									<h3 class="norm">Echoed pronoun: AUX/cop<lg>tyv</lg></h3>
 
 									<div style="display: inline-block; padding-left: 0.75em;">
 										<img src="img/graph - Мен бажыңда мен.svg" style="margin-bottom: 0;"/><br/>
@@ -300,7 +427,7 @@
 
 				<section>
 					<!-- h2 class="extralarge cyrillic">Hvala<lg>slv</lg>, Ракмат<lg>kir</lg>, Teşekkür ederim<lg>tur</lg>, Четтирдим<lg>tyv</lg>, Баһыыба<lg>sah</lg>, Тавтапуҫ<lg>chv</lg>, Raxmet<lg>kaa</lg>, Рақмет<lg>kaz</lg>, Thank you<lg>eng</lg>!</h2 -->
-					<h2 class="extralarge cyrillic">Hvala<lg>slv</lg>,<br/><span style="color: #F77;">Təşəkkür edirəm<lg>azj</lg>,</span> <span style="color: #FB7;">Тавтапуҫ<lg>chv</lg>, Raxmet<lg>kaa</lg>,</span> <span style="color: #FF7;">Рақмет<lg>kaz</lg>, Ракмат<lg>kir</lg>,</span> <span style="color: #7F7;">Баһыыба<lg>sah</lg>,</span><br/><span style="color: #77F;">Teşekkür ederim<lg>tur</lg>,</span> <span style="color: #B7F;">Четтирдим<lg>tyv</lg>, Rahmat<lg>uzb</lg>,</span><br/>Thank you<lg>eng</lg>!</h2>
+					<h2 class="extralarge cyrillic">Hvala<lg>slv</lg>,<br/><span style="color: #F77;">Təşəkkür edirəm<lg>azj</lg>,</span> <span style="color: #FB7;">Тавтапуҫ<lg>chv</lg>, Raxmet<lg>kaa</lg>,</span> <span style="color: #FF7;">Рақмет<lg>kaz</lg>, Ракмат<lg>kir</lg>,</span> <span style="color: #7F7;">Баһыыба<lg>sah</lg>, Sagoluň<lg>tkm</lg></span><br/><span style="color: #77F;">Teşekkür ederim<lg>tur</lg>,</span> <span style="color: #B7F;">Четтирдим<lg>tyv</lg>, Rahmat<lg>uzb</lg>,</span><br/>Thank you<lg>eng</lg>!</h2>
 					<p>slides available at<br/><a href="https://jonorthwash.github.io/2025-TurkicLangTech/presentation.html">https://jonorthwash.github.io/2025-TurkicCopulas-UDTW2/presentation.html</a><br/>
 					<img src="img/presentation_qrcode.png"/>
 					</p>
@@ -317,8 +444,8 @@
 		<script src="./reveal.js/plugin/zoom/zoom.js"></script>
 
 		<!-- Chart plugin -->
-		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chart/plugin.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+		<!-- script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chart/plugin.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script -->
 		
 		<script>
 
@@ -424,7 +551,7 @@
 				]
 				***/
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealChart, RevealMarkdown, RevealZoom, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealZoom, RevealHighlight, RevealNotes ]  // RevealChart, 
 			});
 
 		</script>
