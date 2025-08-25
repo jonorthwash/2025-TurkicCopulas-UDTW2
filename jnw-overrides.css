@@ -973,6 +973,7 @@ ref {
 	font-size: 50% !important ;
 	line-height: 0.95 !important;
 	display: inline-block !important ;
+	margin-top: -0.9em !important;
 }
 
 .norm {
